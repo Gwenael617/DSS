@@ -28,7 +28,7 @@ _Note : this tidyAverages.txt should be read in R using the header=TRUE argument
 _(or how to run this code)_
 
 * The data should be downloaded, unzipped and placed into your working directory.
-* The run_analysis.R script goes in the <u>same</u> working directory, it should be outside of the UCI HAR Dataset folder.
+* The run_analysis.R script goes __in the same working directory__, it should be outside of the UCI HAR Dataset folder.
 
 * The script will __require the plyr package__. (_You may need to install this package if you hadn't before, then the script will load it automatically_)
 
