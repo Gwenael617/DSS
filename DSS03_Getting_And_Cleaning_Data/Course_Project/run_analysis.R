@@ -81,8 +81,8 @@ featuresNames <- gsub("-", "", featuresNames)
 featuresNames <- gsub("BodyBody", "Body", featuresNames)
 featuresNames <- gsub("mean", "Mean", featuresNames)
 featuresNames <- gsub("std", "Sd", featuresNames)
-featuresNames <- gsub("t", "Time", featuresNames)
-featuresNames <- gsub("f", "Freq", featuresNames)
+featuresNames <- gsub("^t", "Time", featuresNames)
+featuresNames <- gsub("^f", "Freq", featuresNames)
 colnames(dataMergedLight)[3:length(dataMergedLight)] <- featuresNames
 
 #### remove unused elements from the global environment except dataMergedLight
